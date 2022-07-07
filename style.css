@@ -8,24 +8,35 @@ h1{
     width: 50%;
     margin: auto;
     text-align: center;
-    color: #f9ca24;
+    /*#f9ca24*/
     font-weight: 800;
  }
 
 .header-1{
+    color: white;
     padding-top: 60px;
     padding-bottom: 18px;
 }
 
 .header-2{
+    color: black;
     padding-top: 150px;
     padding-bottom: 30px;
 }
 
 .header-3{
+    color: black;
     padding-top: 120px;
     padding-bottom: 30px;
 }
+
+.header-4{
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Roboto Slab', serif;
+}
+
 .similar-design{
     font-size: 20px;
     font-weight: 600;
@@ -39,13 +50,13 @@ h1{
 }
 
 .color-change{
-    color: black;
+    color:gray;
 }
 
 .button-design{
     display: inline-block;
     color: white;
-    background-color: #f0932b;
+    background-color: tomato; /*#f0932b*/
     padding: 15px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -84,10 +95,10 @@ h1{
     font-weight: 700;
 }
 #default-mark{
-    border: 2px solid #f0932b;
+    border: 2px solid tomato; /*#f0932b*/
     border-radius: 5px;
-    background-color: #ffbe76;
-    color: #f0932b;
+    background-color:lavenderblush; /*#ffbe76*/
+    color: tomato;
 }
 .button-position2{
     margin-top: 10px;
@@ -104,7 +115,7 @@ hr{
 .section-3 div{
     float: left;
     width: 20%;
-    height: 200px;
+    height: 300px;
     padding: 15px;
     margin-right: 20px;
     
@@ -151,4 +162,36 @@ footer p{
     color: white;
     font-size: 20px;
 
+}
+.bonus-section-2{
+    clear: both;
+    padding-top: 50px; 
+    padding-bottom: 40px;
+    
+}
+.form{
+    margin-top: 150px;
+    text-align: center;
+    background-color:cornsilk;
+    width: 50%;
+    margin: auto;
+    height: 200px;
+}
+input{
+    margin-top: 80px;
+    padding: 15px;
+    margin-right: 0;
+    border: none;
+    border-radius: 5px;
+}
+.email{
+    width: 220px;
+    background-color: gainsboro;
+}
+.submit{
+    color: white;
+    font-weight: 700;
+    position: relative;
+    left: -5px;
+    background-color: tomato;
 }
